@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" type="text/css" href="css/Pedido.css">
+    <link rel="icon" type="png" href="icon.png" />
+</head>
+
+<header class="header">
+    <h1 class="restaurant-name">La Casa De Los Hambrientos</h1>
+    <h2 class="restaurant-type">Pizzaria</h1>
+</header>
+
+<body class="grad">
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="Index.html">Promoções</a></li>
+            <li><a href="Pedido.html">Pedido</a></li>
+            <li><a href="#">Meu Endereço</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <button class="button1">Entrega</button>
+        <button class="button1">Buscar no Local</button>
+
+        <form class="order-form" id="orderForm">
+            <label for="cep">Insira o seu CEP:</label>
+            <input type="text" id="cep" name="cep" required>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" required>
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="sabor">Selecione o sabor:</label>
+            <select id="sabor" name="sabor" required>
+                <option value="">Selecione aqui</option>
+                <option value="pizza-media">Pizza Média</option>
+                <option value="pure-camarao">Pizza purê de camarão</option>
+                <option value="quatro-queijos">Pizza quatro queijos</option>
+                <option value="calabresa-light">Pizza calabresa Light</option>
+                <option value="italianinha-classica">Pizza italianinha clássica</option>
+            </select>
+
+            <label for="tamanho">Selecione o tamanho:</label>
+            <select id="tamanho" name="tamanho" required>
+                <option value="">Selecione aqui</option>
+                <option value="35cm">35cm</option>
+                <option value="45cm">45cm</option>
+                <option value="55cm">55cm</option>
+                <option value="60cm">60cm</option>
+                <option value="65cm">65cm</option>
+                <option value="75cm">75cm</option>
+            </select>
+
+            <label for="observacoes">Observações:</label>
+            <textarea id="observacoes" name="observacoes" placeholder="Não colocar azeitonas..."></textarea>
+
+            <button type="submit" class="button2">Confirmar</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>Sempre levamos em consideração o bom atendimento e seriedade em nossa rede de pizzarias. Em caso de
+            dúvidas ou
+            reclamações contate-nos pelo email: <b class="footerT"> <a href="#"
+                    class="white">lacasadeloshambrientos@outlook.com</a></b> </p>
+    </footer>
+
+    <script>
+
+    </script>
+
+    <script type="text/javascript" src="js/preenchimento.js">         </script>
+
+
+</body>
+
+</html>

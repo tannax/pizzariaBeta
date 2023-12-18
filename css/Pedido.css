@@ -1,0 +1,164 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #222;
+    background-color: #a2a864;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.logo {
+    font-family: "Galada", cursive;
+    font-size: 2.5vw;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Main navigation */
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.main-nav li {
+    padding: 0.5em 1em;
+}
+
+.main-nav li a {
+    color: #242323;
+    text-decoration: underline;
+    font-weight: 600;
+    transition: color 0.2s ease-in-out;
+
+}
+
+.main-nav li a:hover {
+    background-color: #FFFFFF;
+    color: rgb(77, 10, 39);
+    padding: 10px;
+    border-radius: 23px;
+}
+
+.promo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 3em;
+}
+
+.promo-image {
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.promo-content {
+    flex-grow: 1;
+    padding: 1em;
+}
+
+.promo-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.promo-content p {
+    line-height: 1.5;
+}
+
+/* Featured Pizzas */
+.featured-pizzas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 3em;
+}
+
+.pizza-card {
+    width: 250px;
+    margin: 1em;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.pizza-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.pizza-name {
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+.pizza-price {
+    font-weight: bold;
+    color: #878563;
+}
+
+/* Order Form */
+.order-form {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.order-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.order-form input,
+.order-form select {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.order-form button {
+    display: block;
+    margin-top: 1em;
+    padding: 0.5em
+}
+
+.button1 {
+    width: 100px;
+    height: 40px;
+    background: #D9D9D9;
+    border-radius: 23px;
+}
+
+.button2 {
+    width: 100px;
+    height: 40px;
+    background: #a2db73;
+    border-radius: 23px;
+}
